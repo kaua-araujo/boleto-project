@@ -1,9 +1,11 @@
-# Gerador de Boletos
+# Gerador de Documentos (Bridge Pattern)
 </br>
 
-Este é um projeto desenvolvido como atividade da materia de Padrões de Projetos do IFBA.
+Este é um projeto desenvolvido como atividade da disciplina de Padrões de Projetos do IFBA.
 
 # Resumo
 </br>
 
-Um gerador de boletos que recebe informações como benefeciario, pagador, valor e etc, e gera boletos em diversos tipos de bancos.
+Um sistema gerador de documentos empresariais que utiliza o padrão de projeto Bridge, permitindo criar diferentes tipos de documentos e exportá-los em múltiplos formatos de forma independente.
+
+O sistema recebe informações inseridas manualmente pelo usuário e gera documentos como relatório gerencial, nota fiscal, proposta comercial e contrato simplificado.
